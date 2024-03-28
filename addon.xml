@@ -18,7 +18,7 @@ provider-name="Magnus_Manske">
   <source>https://github.com/magnusmanske/plugin.video.wikiflix</source>
   <assets>
     <icon>resources/images/icon.png</icon>
-    <screenshot>resources/images/screenshot-1.png</screenshot>
+    <screenshot>resources/images/screenshot-1.jpg</screenshot>
   </assets>
   <news>Initial version</news>
 </extension>
