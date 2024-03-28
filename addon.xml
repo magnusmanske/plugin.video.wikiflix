@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="plugin.video.example"
-version="3.0.1"
-name="Example Kodi Video Plugin"
-provider-name="Roman_V_M">
+<addon id="plugin.video.wikiflix"
+version="0.0.1"
+name="WikiFlix Kodi Video Plugin"
+provider-name="Magnus_Manske">
 <requires>
   <import addon="xbmc.python" version="3.0.1"/>
 </requires>
@@ -10,16 +10,16 @@ provider-name="Roman_V_M">
   <provides>video</provides>
 </extension>
 <extension point="xbmc.addon.metadata">
-  <summary lang="en_GB">Example Kodi Video Plugin</summary>
-  <description lang="en_GB">An example video plugin for Kodi mediacenter.</description>
-  <disclaimer lang="en_GB">Public domain movies are provided by publicdomainmovie.net.</disclaimer>
+  <summary lang="en">WikiFlix Kodi Video Plugin</summary>
+  <description lang="en">A WikiFlix video plugin for Kodi mediacenter.</description>
+  <disclaimer lang="en">Public domain and freely licensed movies via WikiFlix.</disclaimer>
   <license>GPL-3.0-only	</license>
+  <website>http://wikiflix.toolforge.org</website>
+  <source>https://github.com/magnusmanske/plugin.video.wikiflix</source>
   <assets>
     <icon>resources/images/icon.png</icon>
-    <fanart>resources/images/fanart.jpg</fanart>
-    <screenshot>resources/images/screenshot-1.jpg</screenshot>
-    <screenshot>resources/images/screenshot-2.jpg</screenshot>
+    <screenshot>resources/images/screenshot-1.png</screenshot>
   </assets>
-  <news>Updated with latest artwork metadata</news>
+  <news>Initial version</news>
 </extension>
 </addon>
